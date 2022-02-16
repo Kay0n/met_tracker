@@ -1,0 +1,59 @@
+
+
+
+$base-color: #12192c;
+$highlight-color: rgb(12,93,244);
+$active-color: #233154;
+
+
+.sidebar {
+    
+    height: 100%;
+    width: 12%;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: $base-color;
+    color: white;
+    align-items: center;
+
+}
+
+
+
+
+.item {
+    // flex
+    display: flex;
+    justify-content: center;
+
+    // styling
+    align-items: center;    
+    width: 100%;
+    padding: 12px;  
+    font-size: 20px;
+    border-width: 0px;
+    background-color: $base-color;
+    color: white;
+
+    &:hover {
+        background-color: $highlight-color;
+    }
+}
+
+
+.active {
+    @extend .item;
+    font-weight: 700;
+    background-color: $active-color;
+}
+
+
+.logo {
+    width:100px;
+    height:100px;
+    position:relative;
+    
+}
+
+

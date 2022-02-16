@@ -1,0 +1,57 @@
+
+
+.navbar {
+    display:flex;
+    width: 88%;
+    height: 60px;
+    background-color: #BFBFBF;
+    position: relative;
+    margin-left: 12%;
+    padding-left: 12px;
+    align-items: center;
+    
+
+    h1 {
+        font-weight: 750;
+    }
+
+    button {
+        
+        border:0;
+        padding: 18px 50px;
+        background-color: #BFBFBF;
+
+        &:hover {
+            background-color: lightgrey;
+        }
+
+        
+
+        
+
+
+    }
+    
+
+    .save_button {
+        background-color: red;
+        font-size: 100;
+
+    }
+
+}
+.save_button {
+    background-color: red;
+    font-size: 100;
+
+}
+
+
+.divider {
+    height: 80%;
+    width:4px;
+    margin-left:14px;
+    margin-right:14px;
+    background-color: gray;
+}
+
